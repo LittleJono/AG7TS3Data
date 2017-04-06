@@ -1,0 +1,47 @@
+{"user":"5cott","total":297,"PVE #1":23,"Lobby (Welcome. Select channel below)":1,"Battlefield 1":2,"AFK":35,"Warcraft (WOW)":236}
+{"user":"ABlitz","total":63,"Ghost Recon Wildlands":53,"Lobby (Welcome. Select channel below)":1,"Battlefield 1":9}
+{"user":"AYKP","total":77,"Chill Lounge":76,"Lobby (Welcome. Select channel below)":1}
+{"user":"Aero","total":870,"PVE #1":133,"Lobby (Welcome. Select channel below)":2,"Warcraft (WOW)":735}
+{"user":"Allyna","total":433,"PVE #1":131,"Warcraft (WOW)":302}
+{"user":"AmishLumberjack","total":139,"Warthunder":19,"AFK":120}
+{"user":"Brez","total":803,"PVE #1":85,"Warcraft (WOW)":718}
+{"user":"BusterNation","total":123,"Lobby (Welcome. Select channel below)":2,"Warcraft (WOW)":121}
+{"user":"Camikaze78","total":157,"Chill Lounge":23,"AFK":22,"Squad":112}
+{"user":"Capn_Nemo","total":34,"Warships (WOWS)":34}
+{"user":"Caramadre","total":174,"Battlefield 1":101,"PLAYERUNKNOWN'S BATTLEGROUNDS":73}
+{"user":"Coburn64","total":113,"Warships (WOWS)":113}
+{"user":"DalaiLemur","total":139,"Warframe (Octavia, Anniversary events)":43,"Chill Lounge":89,"Lobby (Welcome. Select channel below)":7}
+{"user":"DragonLink","total":217,"Lobby (Welcome. Select channel below)":1,"Warcraft (WOW)":216}
+{"user":"Drew","total":347,"PVE #1":15,"Warcraft (WOW)":332}
+{"user":"Emacs","total":234,"Lobby (Welcome. Select channel below)":2,"Don't Starve Together":232}
+{"user":"Engiee","total":72,"Lobby (Welcome. Select channel below)":42,"Overwatch":30}
+{"user":"F1na1","total":152,"Lobby (Welcome. Select channel below)":1,"Ghost Recon Wildlands":78,"AFK":48,"Squad":25}
+{"user":"JoeyViper","total":70,"[AG7] Aegis7":70}
+{"user":"Jono (Verilos)","total":138,"Sheep Shed":2,"The Pub [Social Rooms]":1,"Lobby (Welcome. Select channel below)":135}
+{"user":"Jono - Testing stuff","total":23,"Members Lounge":2,"Sheep Shed":1,"The Pub [Social Rooms]":5,"-= Games with Coordinators =-":2,"Guild Wars 2":1,"Overwatch":4,"Overwatch - Quick Play [Training]":8}
+{"user":"Kashdrakor","total":370,"Warcraft (WOW)":370}
+{"user":"Kivala","total":209,"PVE #1":23,"Warcraft (WOW)":186}
+{"user":"Llamafied","total":973,"AFK":268,"Other":379,"Chill Lounge":242,"Lobby (Welcome. Select channel below)":84}
+{"user":"Lokithelost","total":129,"Lobby (Welcome. Select channel below)":10,"Warships (WOWS)":119}
+{"user":"Ologetor","total":208,"Warcraft (WOW)":208}
+{"user":"OutcastC87 [Old Dusty]","total":50,"Chill Lounge":50}
+{"user":"PINGtheGREAT","total":20,"Lobby (Welcome. Select channel below)":20}
+{"user":"Pbkai","total":287,"PVE #1":23,"Warcraft (WOW)":264}
+{"user":"PsycoCroc","total":351,"PVE #1":75,"Warcraft (WOW)":276}
+{"user":"RedBeard","total":23,"Chill Lounge":23}
+{"user":"Rellek","total":1382,"AFK":447,"Lobby (Welcome. Select channel below)":80,"League of Legends":566,"Mass Effect: Andromeda":246,"Ghost Recon Wildlands":2,"Don't Starve Together":41}
+{"user":"Scotchfillet","total":131,"Battlefield 1":23,"Squad":108}
+{"user":"Sen7ryGun","total":823,"Chill Lounge":46,"Sen7ry's writing office":296,"Sen7rys Office":104,"Ghost Recon Wildlands":143,"AFK":87,"Warcraft (WOW)":50,"Squad":97}
+{"user":"Spooge","total":363,"Warcraft (WOW)":338,"Squad":25}
+{"user":"Spyro","total":172,"Warcraft (WOW)":172}
+{"user":"StrafingHunter","total":824,"Lobby (Welcome. Select channel below)":15,"AFK":809}
+{"user":"Theongrayjoy","total":1101,"Warframe (Octavia, Anniversary events)":93,"Ghost Recon Wildlands":24,"Chill Lounge":950,"AFK":34}
+{"user":"Tinuva450","total":396,"AFK":117,"PVE #1":50,"Lobby (Welcome. Select channel below)":1,"Warcraft (WOW)":228}
+{"user":"Twigz","total":354,"AFK":76,"Battlefield 1":222,"Lobby (Welcome. Select channel below)":56}
+{"user":"Vancarlos","total":28,"Warcraft (WOW)":28}
+{"user":"Wizate","total":160,"Warframe (Octavia, Anniversary events)":132,"Lobby (Welcome. Select channel below)":6,"World of Tanks (WoT)":11,"AFK":11}
+{"user":"augrunt","total":397,"PLAYERUNKNOWN'S BATTLEGROUNDS":146,"Lobby (Welcome. Select channel below)":251}
+{"user":"gankey69","total":3,"Lobby (Welcome. Select channel below)":3}
+{"user":"hotbuns11","total":524,"PLAYERUNKNOWN'S BATTLEGROUNDS":286,"Lobby (Welcome. Select channel below)":72,"Warframe (Octavia, Anniversary events)":166}
+{"user":"sawchuk","total":164,"Don't Starve Together":58,"AFK":28,"Warcraft (WOW)":78}
+{"user":"wintersrigor","total":534,"AFK":302,"Warframe (Octavia, Anniversary events)":96,"Other":125,"Lobby (Welcome. Select channel below)":11}
