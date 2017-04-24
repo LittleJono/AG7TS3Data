@@ -1,0 +1,45 @@
+Example user Data(DB 2(1)):
+
+    {
+        "user": "Jono",
+        "alltime": {
+            "total": 1000,
+            "planetmans": 500,
+            "afk": 200,
+            "incontact": {
+                "augrunt": 200,
+                "rellek": 100,
+                "aykp": 20
+            }
+        },
+        "2weeks": {
+            "total": 100,
+            "planetmans": 50,
+            "afk": 20,
+            "incontact": {
+                "augrunt": 20,
+                "rellek": 10,
+                "aykp": 2
+            }
+        }
+    }
+
+
+IN DB 3(2):
+
+    Data = {
+        "total": {
+            "users": ["jono", "augrunt", "rellek"],
+            "usercount": 3,
+            "mostactiveuser": ["augrunt", "jono", "rellek"],
+            "mostusedchannel": ["dnd", "planetside", "pubg"],
+            "totaltimeallusers": 1000000
+        },
+        "2weeks": {
+            "users": ["jono", "augrunt", "rellek"],
+            "usercount": 3,
+            "mostactiveuser": ["augrunt", "jono", "rellek"],
+            "mostusedchannel": ["dnd", "planetside", "pubg"],
+            "totaltimeallusers": 1000000
+        }
+    }
