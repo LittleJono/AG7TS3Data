@@ -2,8 +2,10 @@ var express = require('express')
 var path = require("path")
 var https = require('https');
 var fs = require('fs');
-
+var helmet = require('helmet')
 var app = express()
+
+app.use(helmet())
 
 app.use(express.static('public'))
 
@@ -30,7 +32,7 @@ var getKeys = function() {
             }
         });
         stream.on('end', function () {
-            listOfKeys = keys.sort();
+            listOfKeys = keys
             resolve();
         })
     })
@@ -45,8 +47,17 @@ function getUser(key) {
 }
 
 
+var sortstring = function (a, b)    {
+    a = a.toLowerCase();
+    b = b.toLowerCase();
+    if (a < b) return -1;
+    if (a > b) return 1;
+    return 0;
+}
+
 var test = function() {
     tempList = [];
+    listOfKeys = listOfKeys.sort(sortstring);
     for (i in listOfKeys) {
         getUser(listOfKeys[i]);
     }
@@ -63,12 +74,12 @@ setInterval(function() {
 }, 60000);
 
 
-app.get('/',function(req,res){
+app.get('/information',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
 });
 
 
-app.get('/data', function (req, res) {
+app.get('/informationdata', function (req, res) {
     res.send(listOfUsers)
 });
 

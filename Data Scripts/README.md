@@ -28,3 +28,5 @@ activity graphs? (highcharts);
 
 who x has been in contact with total
 how much time spent with people compare with not (are they being avoided?)
+
+Add last time seen

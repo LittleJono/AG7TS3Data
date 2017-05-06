@@ -21,4 +21,17 @@ body {
 }
 .ss-active-child {
     background-color: white;
+    overflow: hidden;
+    position: absolute;
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+}
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
 }
