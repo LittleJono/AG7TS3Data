@@ -31,9 +31,10 @@ function displayNames(user) {
 }
 $(document).ready(function () {
     grid = document.getElementsByClassName("container")[0]
-    $.get(window.location.href + "data", function (data, status) {
+    $.get(window.location.href + "data.json", function (data, status) {
         console.log(data.length)
         for (i in data) {
+            console.log(data)
             if (i == data.length - 1) {
                 setTimeout(function () {
                     $(".container").shapeshift({
