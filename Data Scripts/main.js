@@ -43,7 +43,7 @@ var proccessUsers = function () {
                 console.log(userchannel);
                 resolve("done");
             } else {
-                userchannel[jsonData2[i]["username"]] = jsonData2[i]["channel"];
+                userchannel[jsonData2[i]["uuid"]] = jsonData2[i]["channel"];
             };
         };
     });
@@ -53,7 +53,7 @@ var proccessUsers = function () {
 
 //Setting User data in the second DB
 function setUsers(index) {
-    users.get(jsonData[index]["username"]).then(function (result) {
+    users.get(jsonData[index]["uuid"]).then(function (result) {
         //console.log(result);
         var toSet;
         result = JSON.parse(result);
@@ -61,7 +61,7 @@ function setUsers(index) {
         var contacted = [];
         var channel = jsonData[index]["channel"];
         for (var key in userchannel) {
-            if (key != jsonData[index]["username"]) {
+            if (key != jsonData[index]["uuid"]) {
                 if (userchannel[key] == channel) {
                     contacted.push(key);
                 };
@@ -70,7 +70,9 @@ function setUsers(index) {
         
         if (result == null) {
             result = {
-                user: jsonData[index]["username"],
+                uuid: jsonData[index]["uuid"],
+                knownnames: {},
+                lastknownname: jsonData[index]["username"],
                 alltime:{
                     total: 1,
                     incontact:{}
@@ -80,6 +82,7 @@ function setUsers(index) {
             for (person in contacted) {
                 result.alltime.incontact[contacted[person]] = 1;
             }
+            result.knownnames[jsonData[index]["username"]] = 1;
 
         } else {
             result.alltime["total"] = result.alltime["total"] + 1
@@ -95,12 +98,15 @@ function setUsers(index) {
                     result.alltime.incontact[contacted[person]] += 1;
                 }
             }   
-            
+            result.knownnames[jsonData[index]["username"]] = 1;
+            result.lastknownname = jsonData[index]["username"];
         }
-        users.set(jsonData[index]["username"], JSON.stringify(result));
+        users.set(jsonData[index]["uuid"], JSON.stringify(result));
         console.log(result);
     });
 }
+
+
 
 //Runs setUsers async for every user currently connected to TS
 function processData() {

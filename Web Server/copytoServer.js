@@ -70,7 +70,7 @@ var test = function () {
                 username: 'jono',
                 privateKey: require("fs").readFileSync('newKey'),
                 passphrase: 'private_key_password',
-                path: '/home/jono/Web/public/'
+                path: '/home/jono/Web/'
             }, function(err) {
                 console.log(err)
                 console.log("done")
@@ -78,6 +78,9 @@ var test = function () {
         }, 1000)
     }, 5000)
 }
+
+fs.writeFileSync("informationdata.json", "[");
+getKeys().then(test);
 
 setInterval(function() {
     fs.writeFileSync("informationdata.json", "[");

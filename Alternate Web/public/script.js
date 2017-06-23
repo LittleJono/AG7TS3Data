@@ -11,6 +11,11 @@ function displayNames(user) {
     total.innerHTML = "Total: " + user.alltime.total
     total.style.fontWeight = "bold"
     card.appendChild(total);
+    var UUID = document.createElement("p");
+    UUID.innerHTML = "UUID: " + user.uuid
+    UUID.style.fontWeight = "bold"
+    UUID.style.fontSize = "10px"
+    card.appendChild(UUID);
     for (i = 2; i < Object.keys(user.alltime).length; i++) {
         anObject = {}
         anObject[Object.keys(user.alltime)[i]] = (user.alltime[Object.keys(user.alltime)[i]])
@@ -31,7 +36,8 @@ function displayNames(user) {
 }
 $(document).ready(function () {
     grid = document.getElementsByClassName("container")[0]
-    $.get(window.location.href + "data.json", function (data, status) {
+    $.get(window.location.href + "data", function (data, status) {
+        data = data["users"];
         console.log(data.length)
         for (i in data) {
             console.log(data)

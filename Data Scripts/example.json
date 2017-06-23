@@ -2,6 +2,7 @@ Example user Data(DB 2(1)):
 
     {
         "user": "Jono",
+        "UUID": "theuuid",
         "alltime": {
             "total": 1000,
             "planetmans": 500,
